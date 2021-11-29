@@ -101,14 +101,6 @@ const Header = ({ handleLeftDrawerToggle }) => {
 
       {/* toggle between light and dark mode */}
       
-
-      <IconButton href="http://localhost:3000/" target="_blank" sx={{ mr: 1 }} color='inherit'>
-        <CheckBoxOutlineBlankIcon />
-      </IconButton>
-
-      <IconButton href="https://evaliain-video.vercel.app/create" target="_blank" sx={{ mr: 1 }} color='inherit'>
-        <VideoCall />
-      </IconButton>
     
 
       <IconButton sx={{ mr: 1 }} onClick={toggleColorMode} color='inherit'>
@@ -116,10 +108,7 @@ const Header = ({ handleLeftDrawerToggle }) => {
       </IconButton>
 
       {/* notification & profile */}
-      <Button variant='outlined'>Upgrade Plan</Button>
-      <Button style={{ marginLeft: '20px' }} variant='contained'>
-        Invite People
-      </Button>
+     
 
       <NotificationSection />
       <ProfileSection />
